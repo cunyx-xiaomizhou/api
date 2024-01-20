@@ -3,13 +3,14 @@
 <div>
 <div align="center">
 
-[![](https://img.shields.io/badge/cunyx-plugin-LightPink)](https://gitee.com/cunyx/cunyx-plugin)
-[![](https://img.shields.io/badge/Author-寸幼萱-DeepSkyBlue)](https://gitee.com/cunyx)
+[![](https://img.shields.io/badge/PHP-API-LightPink)](https://gitee.com/cunyx/api)
+[![](https://img.shields.io/badge/Author-Gitee群的粥某人-DeepSkyBlue)](https://gitee.com/cunyx)
 <a href='https://gitee.com/cunyx/api/stargazers'><img src='https://gitee.com/cunyx/api/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/cunyx/api/members'><img src='https://gitee.com/cunyx/api/badge/fork.svg?theme=dark' alt='fork'></img></a>
 
 </div>
 </div>
+
 本项目使用`PHP`和`MySQL`开发，提供了后台管理页面、友链管理、备案号悬挂、API管理于一身的框架
 
 ### 安装方法
