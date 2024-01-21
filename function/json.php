@@ -15,4 +15,12 @@ function refuse($code,$msg) {
     echo sent($echoJson);
     exit;
 }
+function allow($msg,$data) {
+    $echoJson['code'] = 200;
+    $echoJson['msg'] = $msg;
+    $echoJson['data'] = $data;
+    $echoJson['time'] = time();
+    echo sent($echoJson);
+    return true;
+}
 ?>
