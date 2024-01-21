@@ -4,7 +4,7 @@
 <div align="center">
 
 [![](https://img.shields.io/badge/PHP-API-LightPink)](https://gitee.com/cunyx/api)
-[![](https://img.shields.io/badge/Author-Gitee群的粥某人-DeepSkyBlue)](https://gitee.com/cunyx)
+[![](https://img.shields.io/badge/Author-粥某人-DeepSkyBlue)](https://gitee.com/cunyx)
 <a href='https://gitee.com/cunyx/api/stargazers'><img src='https://gitee.com/cunyx/api/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/cunyx/api/members'><img src='https://gitee.com/cunyx/api/badge/fork.svg?theme=dark' alt='fork'></img></a>
 
@@ -33,7 +33,6 @@ git clone https://github.com/cunyx-xiaomizhou/api.git ./api/
 3.   将目录`api-master`重命名为`api`
 
 ### 修改配置文件
-#### 1.复制粘贴重命名
 1.   复制`/system/default_config`文件夹粘贴至同一目录并重命名为`config`
 2.   编辑`/config/database.php`文件，填写你的数据库信息
 3.   将项目根目录的`MySQL.sql.gz`上传到你的数据库中
@@ -49,4 +48,9 @@ require($_SERVER['DOCUMENT_ROOT'].'/function/index.php');
 verify_token($_REQUEST['account'],$_REQUEST['token']);
 ```
 3.   在第三行代码处加入`addUseTimes()`函数，传入该api的id(后台添加接口需要填写)，这样就实现了API累计调用次数的计数了
-### 我是鸽子 咕咕咕
+
+[点击查看更多开发帮助](DOCUMENT.md)
+### 开发人员列表
+|昵称|职务|负责主要内容|
+|--------|-------|--------------------------------|
+|[@最好喝的小米粥](https://gitee.com/cunyx)|后端|大框架构思，数据库结构，关键函数编写|
